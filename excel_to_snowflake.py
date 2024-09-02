@@ -11,11 +11,11 @@ from tqdm import tqdm
 kSDLC_TEMP_CSV = "snowflake_tempFile.csv"
 
 snowflake_details = {
-    "user": 'BJENA',
-    "password": 'Welcome=12345',
-    "account": 'sears_hs_prod.us-east-1',
-    "database": 'HS_DEEPLEARNING',
-    "schema": 'AUTOMATION_QA',
+    "user": 'user',
+    "password": 'password',
+    "account": 'account',
+    "database": 'database',
+    "schema": 'schema',
 }
 snowflake_data_types = {
     "int64": "INTEGER",
