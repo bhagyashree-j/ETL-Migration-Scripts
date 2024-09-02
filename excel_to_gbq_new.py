@@ -12,8 +12,8 @@ from tqdm import tqdm
 kSDLC_TEMP_CSV = "gbq_tempFile.csv"
 
 gbq_details = {
-    "project_id": 'syw-analytics-ff',
-    "dataset_id": 'automation_qa',
+    "project_id": 'project_id',
+    "dataset_id": 'dataset_id',
 }
 
 def table_exists(client, dataset_id, table_id):
